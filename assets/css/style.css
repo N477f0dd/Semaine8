@@ -1,0 +1,97 @@
+h1, h2{
+  font-family: Impact;
+  color: red;
+  text-align: center;
+}
+
+header{
+  width: 100%;
+}
+
+h3{
+  color: #cc0000;
+}
+
+body{
+
+}
+
+body ul{
+  list-style-type: circle;
+  font-style: italic;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+  background-image: url(./../fonds/brickwall.png);
+}
+
+main {
+  background-image: url(./../fonds/retina_wood.png);
+  padding-top: 100px ;
+}
+
+footer {
+  background-image: url(./../fonds/hexellence.png);
+}
+
+img {
+
+}
+
+
+
+footer{
+  text-align: center;
+}
+
+iframe{
+  display: inline-block;
+    box-sizing:border-box;
+    vertical-align: top;
+    width: 30% ;
+    height: 50% ;
+}
+
+.conteneur1 {
+    color: #cc0000
+}
+
+#logocv {
+  width: 5em ;
+  display: inline-block;
+}
+
+.prez {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
+#h3 {
+  color: #cc0000 ;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+/********************************************************/
+/****************** Formulaire***************************/
+/********************************************************/
+
+
+
+input, textarea, select {
+ padding:3px;
+ border:1px solid #F5C5C5;
+ border-radius:5px;
+ width:200px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
